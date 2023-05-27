@@ -1,0 +1,168 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  background-color: #282c34;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-family: 'Sohne-Regular', sans-serif;
+}
+
+.upload-button {
+  background-color: blue;
+}
+
+.sidemenu {
+  width: 260px;
+  padding: 30px; 
+  background-color: #212023;
+}
+
+.chatbox {
+  flex: 1;
+  background-color: #343541;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.sidemenu-button {
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 5px; 
+  text-align: left;
+  transition: ease 0.25s all;
+}
+
+.sidemenu-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidemenu-button span {
+  padding-left: 6px;
+  padding-right: 12px;
+}
+
+.chat-input-holder {
+  padding: 24px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  margin-top: 30px;
+}
+
+.chat-input-text-area {
+  background-color: #40414f;
+  width: 90%;
+  border-radius: 5px;
+  border: none;
+  margin: 12px;
+  outline: none;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  padding: 12px; 
+  color: white;
+  font-size: 1.25em;
+}
+
+.chat-log {
+  text-align: left;
+}
+
+.chat-message.server {
+  background-color: #444654;
+}
+
+.chat-message-center {
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.avatar {
+  background: white;
+  border-radius: 50%; 
+  width: 40px;
+  height: 40px;
+}
+
+.avatar.server {
+  background: #0da37f;
+  border-radius: 50%; 
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+
+.message {
+  padding: 12px;
+  padding-left: 40px;
+  max-width: 500px;
+}
+
+.model-select {
+  background-color: #343541;
+  color: white; 
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 5px;
+  border: none;
+}
+
+.submit-button {
+  background-color: #40414f;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  padding: 12px; 
+  color: white;
+  font-size: 1.25em;
+  cursor: pointer;
+  font-size: 1.75em;
+  width: 5rem;
+}
+
+.file-button {
+  background-color: #40414f;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 2em;
+  cursor: pointer; 
+  margin-right: 10px;
+  width: 5rem;
+  padding-top: 20px;
+}
+
+.input-upload {
+  display: none;
+}
+
+.chat-form {
+  display: flex;
+}
+
+.submit-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.file-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
